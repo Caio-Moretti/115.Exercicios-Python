@@ -1,0 +1,6 @@
+a = input('Digite algo: ')
+print('A classe do que você digitou é: ', type(a))
+print('É um valor númerico?', a.isnumeric())
+print('É um valor alphabético?', a.isalpha())
+print('É todo em letras maiúsculas?', a.islower())
+print('É todo em letras minúsculas?', a.isupper())
